@@ -4,7 +4,7 @@ This is a Todo application built with React that integrates with an external API
 
 ## Demo
 
-Play the live version of the 2048 game [here](https://ekateriina7.github.io/react-todo-app-with-api/).
+Try todo app yourself [here](https://ekateriina7.github.io/react-todo-app-with-api/).
 
 ## Features
 
