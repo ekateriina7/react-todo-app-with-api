@@ -19,7 +19,7 @@ export const TodoList: React.FC<Props> = ({ todos }) => {
 
         case FilterFields.Completed:
           return todo.completed;
-        
+
         default:
           return todo;
       }

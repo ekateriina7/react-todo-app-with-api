@@ -47,7 +47,9 @@ export const Footer: React.FC = () => {
         <a
           onClick={() => onChangeFilter(FilterFields.All)}
           href="#/"
-          className={classNames('filter__link', { 'selected': filter === FilterFields.All })}
+          className={classNames('filter__link', {
+            selected: filter === FilterFields.All,
+          })}
           data-cy="FilterLinkAll"
         >
           All
@@ -56,7 +58,9 @@ export const Footer: React.FC = () => {
         <a
           onClick={() => onChangeFilter(FilterFields.Active)}
           href="#/active"
-          className={classNames('filter__link', { 'selected': filter === FilterFields.Active })}
+          className={classNames('filter__link', {
+            selected: filter === FilterFields.Active,
+          })}
           data-cy="FilterLinkActive"
         >
           Active
@@ -65,7 +69,9 @@ export const Footer: React.FC = () => {
         <a
           onClick={() => onChangeFilter(FilterFields.Completed)}
           href="#/completed"
-          className={classNames('filter__link', { 'selected': filter === FilterFields.Completed })}
+          className={classNames('filter__link', {
+            selected: filter === FilterFields.Completed,
+          })}
           data-cy="FilterLinkCompleted"
         >
           Completed
